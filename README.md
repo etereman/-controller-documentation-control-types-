@@ -21,6 +21,7 @@ For a simple stand-alone mode with switching the effect using a button, the conf
 
     or nothing
 </details>
+
 ## Auto-switch mode
 <details>
 When the mode is active, your controller will cycle through effects in an endless loop every N seconds.
@@ -44,6 +45,7 @@ Blackout effect - the effect at which all LEDs go out
 > **Note:** LEDs continue to consume power while playing the blackout effect
 </details>
 ## Playlist mode
+
 <details>
 You also can program your own show. 
 To activate this mode, set the following line in the configuration file:
@@ -82,6 +84,7 @@ To do this, press and hold the button for about 1.5-2 seconds.
 If the controller cannot find an effect by the sequence number specified in the playlist, that effect will be ignored. The previous effect will continue to play.
 </details>
 ## Test mode
+
 <details>
 Service mode for testing and detecting problems with LEDs.
 
