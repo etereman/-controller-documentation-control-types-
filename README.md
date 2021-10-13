@@ -83,7 +83,7 @@ If the controller cannot find an effect by the sequence number specified in the 
 
 Service mode for testing and detecting problems with LEDs.
 
-This mode is not custom
+**Note:** This mode is not custom
 
     play.default=3;
     or
