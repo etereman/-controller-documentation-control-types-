@@ -12,8 +12,11 @@ Available for controllers:
 ## For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
 
 play.default=0;
+
 or
+
 play.default=Manual;
+
 or nothing
 
 ### Initialization
