@@ -26,10 +26,12 @@ When the mode is active, your controller will cycle through effects in an endles
 To activate this mode, set the following line in the configuration file:
 
 play.default=2;
+
 or
+
 play.default=Auto;
 
-You also need to create an auto.txt file and write the time value in milliseconds to this file. Example: 
+You also need to create an `auto.txt` file and write the time value in milliseconds to this file. Example: 
 
 15000 - effects will switch every 15 seconds.
 
