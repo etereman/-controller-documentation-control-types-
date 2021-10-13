@@ -4,7 +4,7 @@ During time this software changed multiple times, this documentation version des
 Due to backwards compatibility this instructions can be applied to previous software versions.
 
 ## Simple mode
-<details>
+<details> <summary>Specification</summary>
 Available for controllers:
 
     -ESP8266
@@ -24,7 +24,7 @@ For a simple stand-alone mode with switching the effect using a button, the conf
 
 ## Auto-switch mode
 
-<details>
+<details> <summary>Specification</summary>
 When the mode is active, your controller will cycle through effects in an endless loop every N seconds.
 To activate this mode, set the following line in the configuration file:
 
@@ -48,7 +48,7 @@ Blackout effect - the effect at which all LEDs go out
 
 ## Playlist mode
 
-<details>
+<details> <summary>Specification</summary>
 You also can program your own show. 
 To activate this mode, set the following line in the configuration file:
 
@@ -88,7 +88,7 @@ If the controller cannot find an effect by the sequence number specified in the 
 
 ## Test mode
 
-<details>
+<details> <summary>Specification</summary>
 Service mode for testing and detecting problems with LEDs.
 
 > **Note:** This mode is not custom
