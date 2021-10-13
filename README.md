@@ -12,14 +12,10 @@ Available for controllers:
 ## For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
 
 play.default=0;
-
 or
-
 play.default=Manual;
-
 or nothing
 
- !!!!!!!!!!!!!!!!!!!!!!!
 ### Initialization
 - Controller starts initialization and checks SD card availability
     - If SD card not available controller will signal <span style="color:RED">**red**</span>/**black** <details> <summary>Solution</summary>
