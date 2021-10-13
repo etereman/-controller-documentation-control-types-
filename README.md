@@ -9,7 +9,7 @@ Available for controllers:
 -ESP8266
 -ESP32
 
-## Сonfiguration file
+### Сonfiguration file
 For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
 
 play.default=0;
@@ -20,7 +20,7 @@ play.default=Manual;
 
 or nothing
 
-### Initialization
+## Auto-switch mode
 - Controller starts initialization and checks SD card availability
     - If SD card not available controller will signal <span style="color:RED">**red**</span>/**black** <details> <summary>Solution</summary>
     Firstly check physical card state.  
