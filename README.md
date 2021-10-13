@@ -23,6 +23,7 @@ For a simple stand-alone mode with switching the effect using a button, the conf
 </details>
 
 ## Auto-switch mode
+
 <details>
 When the mode is active, your controller will cycle through effects in an endless loop every N seconds.
 To activate this mode, set the following line in the configuration file:
