@@ -44,6 +44,7 @@ Blackout effect - the effect at which all LEDs go out
 > **Note:** LEDs continue to consume power while playing the blackout effect
 </details>
 ## Playlist mode
+<details>
 You also can program your own show. 
 To activate this mode, set the following line in the configuration file:
 
