@@ -13,7 +13,7 @@ Available for controllers:
     
 With this type of control, changing the effects is carried out by pressing the buttons of the controller itself   
     
-## Simple mode
+### Simple mode
 
 <details> <summary>Description</summary>
 
@@ -28,7 +28,7 @@ For a simple stand-alone mode with switching the effect using a button, the conf
     or nothing
 </details>
 
-## Auto-switch mode
+### Auto-switch mode
 
 <details> <summary>Description</summary>
 When the mode is active, your controller will cycle through effects in an endless loop every N seconds.
@@ -52,7 +52,7 @@ Blackout effect - the effect at which all LEDs go out
 > **Note:** LEDs continue to consume power while playing the blackout effect
 </details>
 
-## Playlist mode
+### Playlist mode
 
 <details> <summary>Description</summary>
 You also can program your own show. 
@@ -92,7 +92,7 @@ To do this, press and hold the button for about 1.5-2 seconds.
 If the controller cannot find an effect by the sequence number specified in the playlist, that effect will be ignored. The previous effect will continue to play.
 </details>
 
-## Test mode
+### Test mode
 
 <details> <summary>Description</summary>
 Service mode for testing and detecting problems with LEDs.
@@ -104,6 +104,8 @@ Service mode for testing and detecting problems with LEDs.
     play.default=Test;
 </details>   
 </details>
+
+
 
 
 ## Radio control
