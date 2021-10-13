@@ -4,7 +4,7 @@ During time this software changed multiple times, this documentation version des
 Due to backwards compatibility this instructions can be applied to previous software versions.
 
 ## Simple mode
-
+<summary>Solution</summary>
 Available for controllers:
     -ESP8266
     -ESP32
@@ -40,7 +40,7 @@ To activate automatic switching of effects after turning on the product, you jus
 To activate the blackout effect, you need to press and hold any button for about 1.5-2 seconds.
 Blackout effect - the effect at which all LEDs go out
 
-**Note:** LEDs continue to consume power while playing the blackout effect
+> **Note:** LEDs continue to consume power while playing the blackout effect
 
 ## Playlist mode
 You also can program your own show. 
@@ -83,11 +83,17 @@ If the controller cannot find an effect by the sequence number specified in the 
 
 Service mode for testing and detecting problems with LEDs.
 
-**Note:** This mode is not custom
+> **Note:** This mode is not custom
 
     play.default=3;
     or
     play.default=Test;
+    
+
+    
+    
+    
+    
     
 
 
