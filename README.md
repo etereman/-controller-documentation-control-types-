@@ -104,12 +104,27 @@ Service mode for testing and detecting problems with LEDs.
     play.default=Test;
 </details>   
 </details>
-    
-    
-    
-    
-    
 
+
+## Radio control
+    
+<details> <summary>Description</summary>  
+Radio control is an extension of the standard control.
+    
+To enable the radio, add the following line to the configuration file:
+
+    - if the controller should only listen to the radio channel;
+        radio.pattern=input;
+
+    - if the controller only needs to send a radio signal to other receivers;
+        radio.pattern=output;
+
+    - if the controller must simultaneously listen to the radio and send it to other receivers;
+        radio.pattern=group;
+
+    
+    
+</details>
 
     
     
