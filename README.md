@@ -113,7 +113,7 @@ Radio control is an extension of the standard control.
     
 To enable the radio, add the following line to the configuration file:
 
-- if the controller should only listen to the radio channel;
+    - if the controller should only listen to the radio channel;
 
     `radio.pattern=input;`
 
