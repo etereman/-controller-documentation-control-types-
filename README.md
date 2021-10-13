@@ -6,39 +6,47 @@ Due to backwards compatibility this instructions can be applied to previous soft
 ## Simple mode
 
 Available for controllers:
--ESP8266
--ESP32
+    -ESP8266
+    -ESP32
 
 ### Сonfiguration file
 For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
 
-play.default=0;
+    play.default=0;
 
-or
+    or
 
-play.default=Manual;
+    play.default=Manual;
 
-or nothing
+    or nothing
 
 ## Auto-switch mode
 
 When the mode is active, your controller will cycle through effects in an endless loop every N seconds.
 To activate this mode, set the following line in the configuration file:
 
-play.default=2;
+    play.default=2;
 
-or
+    or
 
-play.default=Auto;
+    play.default=Auto;
 
 You also need to create an `auto.txt` file and write the time value in milliseconds to this file. Example: 
 
-15000 - effects will switch every 15 seconds.
+    15000 - effects will switch every 15 seconds.
 
 To activate automatic switching of effects after turning on the product, you just need to press the button of the switching effect.
 
 To activate the blackout effect, you need to press and hold any button for about 1.5-2 seconds.
 Blackout effect - the effect at which all LEDs go out
+    #A warning!!! LEDs continue to consume power while playing the blackout effect
+    
+    
+    
+    
+    
+    
+    
 
 - Controller starts initialization and checks SD card availability
     - If SD card not available controller will signal <span style="color:RED">**red**</span>/**black** <details> <summary>Solution</summary>
