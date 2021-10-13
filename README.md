@@ -199,9 +199,15 @@ Auto and show/playlist mode
 A short press of the button sends a signal to start playback of the sequence to each controller-listener. A long press on the button will stop the effects playback.
 
 </details>
+
+Possible types of radio transmitters:
+    
+    
     
 </details>    
     
+<details> <summary>Description</summary>       
+
+
     
-    
-    
+</details>    
