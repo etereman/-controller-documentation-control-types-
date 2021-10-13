@@ -108,7 +108,7 @@ Service mode for testing and detecting problems with LEDs.
 
 
 
-## Radio control
+## RADIO CONTROL
     
 <details> <summary>Specification</summary>  
 Radio control is an extension of the standard control.
