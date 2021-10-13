@@ -1,17 +1,21 @@
-# Etere Documentation Page
+# Etere Documentation 
 This page describes etereshop controller software.
 During time this software changed multiple times, this documentation version describes 8th software version.  
 Due to backwards compatibility this instructions can be applied to previous software versions.
 
-This page mainly describes controller in default state, and how to change this behavior.
-## Default controller description
-Etereshop usually leave default controller and hardware configuration.  
-Default controller is small box with 2 wired buttons and 1 large connector for suit.
-Configuration can be different containing multiple connectors and less or more buttons.  
-Currently all controllers for suit have SD card inside with effect files and configuration files.
+## Simple mode
 
-## Default controller work instructions
-For normal controller work, user plugs power to suit and connects controller to suit connector.  
+Available for controllers:
+-ESP8266
+-ESP32
+
+## For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
+
+play.default=0;
+or
+play.default=Manual;
+or nothing
+ !!!!!!!!!!!!!!!!!!!!!!!
 ### Initialization
 - Controller starts initialization and checks SD card availability
     - If SD card not available controller will signal <span style="color:RED">**red**</span>/**black** <details> <summary>Solution</summary>
