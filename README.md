@@ -178,11 +178,29 @@ Subchannel address for the receiver.
     - If radio.v1.bits=3 then value in range from 0 to 7;
     - If radio.v1.bits=4 then value in range from 0 to 15;
     
+`radio.v1.reset=0;`
+Blackout/stop value. We recommend that you do not change this value.
+
+`radio.v1.output=[0,1];`
+Output address [addr,addr,addr] for output and group modes.
 
 </details>
+
+### Integration with standalone modes    
+
+<details> <summary>Description</summary>    
+
+Simple standalone mode
+Works autonomously as usual. In radio group mode or output mode, if you press a button to change the effect, the controller also sends a signal to other LED products to change the effect to the same number.
+The number of effects must be the same on each controller, otherwise switching to the missing effect will be ignored. A long press on the button will stop the effects playback.
+
+Auto and show/playlist mode
+
+A short press of the button sends a signal to start playback of the sequence to each controller-listener. A long press on the button will stop the effects playback.
 
 </details>
     
+</details>    
     
     
     
