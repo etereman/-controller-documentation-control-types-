@@ -3,14 +3,22 @@ This page describes etereshop controller software.
 During time this software changed multiple times, this documentation version describes 8th software version.  
 Due to backwards compatibility this instructions can be applied to previous software versions.
 
-## Simple mode
+## STANDART CONTROL
+
 <details> <summary>Specification</summary>
 Available for controllers:
 
     -ESP8266
     -ESP32
+    
+With this type of control, changing the effects is carried out by pressing the buttons of the controller itself   
+ 
+</details>
+    
+## Simple mode
 
-### Сonfiguration file
+<details> <summary>Description</summary>
+
 For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
 
     play.default=0;
@@ -24,7 +32,7 @@ For a simple stand-alone mode with switching the effect using a button, the conf
 
 ## Auto-switch mode
 
-<details> <summary>Specification</summary>
+<details> <summary>Description</summary>
 When the mode is active, your controller will cycle through effects in an endless loop every N seconds.
 To activate this mode, set the following line in the configuration file:
 
@@ -48,7 +56,7 @@ Blackout effect - the effect at which all LEDs go out
 
 ## Playlist mode
 
-<details> <summary>Specification</summary>
+<details> <summary>Description</summary>
 You also can program your own show. 
 To activate this mode, set the following line in the configuration file:
 
@@ -88,7 +96,7 @@ If the controller cannot find an effect by the sequence number specified in the 
 
 ## Test mode
 
-<details> <summary>Specification</summary>
+<details> <summary>Description</summary>
 Service mode for testing and detecting problems with LEDs.
 
 > **Note:** This mode is not custom
