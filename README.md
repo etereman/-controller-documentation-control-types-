@@ -108,28 +108,69 @@ Service mode for testing and detecting problems with LEDs.
 
 ## Radio control
     
-<details> <summary>Description</summary>  
+<details> <summary>Specification</summary>  
 Radio control is an extension of the standard control.
     
 To enable the radio, add the following line to the configuration file:
 
-    - if the controller should only listen to the radio channel;
+   - if the controller should only listen to the radio channel;
 
-    `radio.pattern=input;`
+       `radio.pattern=input;`
 
-- if the controller only needs to send a radio signal to other receivers;
+   - if the controller only needs to send a radio signal to other receivers;
     
-    `radio.pattern=output;`
+       `radio.pattern=output;`
 
-- if the controller must simultaneously listen to the radio and send it to other receivers;
+   - if the controller must simultaneously listen to the radio and send it to other receivers;
 
-    `radio.pattern=group;`            
-        
+       `radio.pattern=group;` 
+
+The radio signal only transmits the effect number. If the controller receives this value, it must change the current effect number to the received number and play that effect assuming that it exists on the controller's memory card.
     
+In output mode and group mode, the controller will send the effect value if it was changed by pressing the effect switch button (not applicable to special transmitter controllers such as DMX-RF 20-button remote controller).    
     
+### Radio module settings
     
+<details> <summary>Description</summary>
+
+If you have several groups of radio-controlled LED products and want to control them independently, you can change the radio channels. Signals from different channels do not overlap with each other.
+    
+To change the radio channel, you need to add the following line to the config file:
+
+    `radio.channel=#;`
+
+Where # is the number of the channel that can range from 1 to 127.
+
+Default channel is 1;
+
+</details>
+    
+### Advanced settings    
+
+<details> <summary>Description</summary>
+
+You can also create virtual subchannels. This option has been added to use multiple DMX channels to control LED products with a DMX-RF transmitter.
+
+Advanced settings are activated by adding the following code to the config file:
+
+    `radio.version=1;`
+
+The number of subchannels is regulated by the following line:
+    `radio.v1.bits=#;`    
+Where # - subchannel mode, it must be between 1 and 4:
+    
+    - If 1: up to 2 subchannels but 127 numbers of effects max.
+    - If 2: up to 4 subchannels but 63 numbers of effects max.
+    - If 3: up to 8 subchannels but 31 numbers of effects max.
+    - If 4: up to 16 subchannels but 15 numbers of effects max.
+    
+All receivers must have the same settings. If the transmitter sends a radio signal to 5 receivers, then each receiver should have 
+    radio.v1.bits = 3 (4 < 5 < 8).
+    
+
 </details>
 
+</details>
     
     
     
