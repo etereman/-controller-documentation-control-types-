@@ -9,7 +9,8 @@ Available for controllers:
 -ESP8266
 -ESP32
 
-## For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
+## configuration file
+For a simple stand-alone mode with switching the effect using a button, the configuration file should contain the following line:
 
 play.default=0;
 
