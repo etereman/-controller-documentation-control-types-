@@ -137,7 +137,7 @@ If you have several groups of radio-controlled LED products and want to control 
     
 To change the radio channel, you need to add the following line to the config file:
 
-    `radio.channel=#;`
+`radio.channel=#;`
 
 Where # is the number of the channel that can range from 1 to 127.
 
@@ -153,10 +153,12 @@ You can also create virtual subchannels. This option has been added to use multi
 
 Advanced settings are activated by adding the following code to the config file:
 
-    `radio.version=1;`
+`radio.version=1;`
 
 The number of subchannels is regulated by the following line:
-    `radio.v1.bits=#;`    
+    
+`radio.v1.bits=#;`    
+    
 Where # - subchannel mode, it must be between 1 and 4:
     
     - If 1: up to 2 subchannels but 127 numbers of effects max.
@@ -166,6 +168,13 @@ Where # - subchannel mode, it must be between 1 and 4:
     
 All receivers must have the same settings. If the transmitter sends a radio signal to 5 receivers, then each receiver should have 
     radio.v1.bits = 3 (4 < 5 < 8).
+
+`radio.v1.address=0;`
+Subchannel address for the receiver.
+    - If radio.v1.bits=1 then value in range from 0 to 1;
+    - If radio.v1.bits=2 then value in range from 0 to 3;
+    - If radio.v1.bits=3 then value in range from 0 to 7;
+    - If radio.v1.bits=4 then value in range from 0 to 15;
     
 
 </details>
