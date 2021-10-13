@@ -45,6 +45,7 @@ Blackout effect - the effect at which all LEDs go out
 
 > **Note:** LEDs continue to consume power while playing the blackout effect
 </details>
+
 ## Playlist mode
 
 <details>
@@ -84,6 +85,7 @@ To do this, press and hold the button for about 1.5-2 seconds.
 
 If the controller cannot find an effect by the sequence number specified in the playlist, that effect will be ignored. The previous effect will continue to play.
 </details>
+
 ## Test mode
 
 <details>
