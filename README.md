@@ -12,8 +12,6 @@ Available for controllers:
     -ESP32
     
 With this type of control, changing the effects is carried out by pressing the buttons of the controller itself   
- 
-</details>
     
 ## Simple mode
 
@@ -104,8 +102,8 @@ Service mode for testing and detecting problems with LEDs.
     play.default=3;
     or
     play.default=Test;
-</details>    
-
+</details>   
+</details>
     
     
     
