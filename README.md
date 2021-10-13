@@ -79,7 +79,7 @@ To do this, press and hold the button for about 1.5-2 seconds.
 
 If the controller cannot find an effect by the sequence number specified in the playlist, that effect will be ignored. The previous effect will continue to play.
 
-##Test mode
+## Test mode
 
 Service mode for testing and detecting problems with LEDs.
 
