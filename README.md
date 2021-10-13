@@ -39,7 +39,8 @@ To activate automatic switching of effects after turning on the product, you jus
 
 To activate the blackout effect, you need to press and hold any button for about 1.5-2 seconds.
 Blackout effect - the effect at which all LEDs go out
-    #A warning!!! LEDs continue to consume power while playing the blackout effect
+
+    A warning!!! LEDs continue to consume power while playing the blackout effect
     
     
     
