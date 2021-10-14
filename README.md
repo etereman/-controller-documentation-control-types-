@@ -208,15 +208,28 @@ Possible types of radio transmitters:
     
         <details> <summary>Description</summary> 
   
-   ![image](images/Twenty_button_console.jpg) 
-       
+        ![image](images/Twenty_button_console.jpg) 
+        
+        The remote control consists of: a controller box unit with 20 buttons, an external radio antenna 433MHz, a power bank, a USB cable.    
+        
+        There are 2 versions of the remote control: for 20 effects and for 36 effects.
+
+        Version with 20 effects: each button triggers one effect from 1 to 20.
+
+        Version with 36 effects: 
+        18 buttons for switching effects, 2 buttons for setting page 1 or 2. 
+        If page #1 is selected: buttons 1-18 → effects 1-18. 
+        If page # 2 is selected: buttons 1-18 → effects 19-36.
+
+        The radio channel cannot be changed by hardware restrictions.
+    
         </details>
     
    - DMX device
    
         <details> <summary>Description</summary> 
    
- 
+        ![image](images/DMX.jpg) 
        
         </details> 
     
