@@ -208,7 +208,7 @@ Possible types of radio transmitters:
     
    <details> <summary>Description</summary> 
   
-   ![Twenty button console](images/DMX.jpg)  
+   ![image](images/DMX.jpg) 
        
    </details>
     
