@@ -206,12 +206,17 @@ Possible types of radio transmitters:
     
    <details> <summary>Description</summary> 
    
-   ![Windows instructions](image/DMX.png)  
+   ![Twenty button console](image/DMX.jpg)  
        
    </details>
-   - DMX device
- 
     
+   - DMX device
+   
+   <details> <summary>Description</summary> 
+   
+   ![DMX device](image/DMX.jpg) 
+       
+   </details> 
     
       
     
