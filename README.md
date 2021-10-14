@@ -206,19 +206,19 @@ Possible types of radio transmitters:
     
    - Twenty button console
     
-    <details> <summary>Description</summary> 
+        <details> <summary>Description</summary> 
   
    ![image](images/Twenty_button_console.jpg) 
        
-    </details>
+        </details>
     
    - DMX device
    
-    <details> <summary>Description</summary> 
+        <details> <summary>Description</summary> 
    
  
        
-    </details> 
+        </details> 
     
       
     
