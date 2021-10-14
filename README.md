@@ -208,7 +208,7 @@ Possible types of radio transmitters:
     
    <details> <summary>Description</summary> 
   
-   ![image](imegas/Twenty_button_console.jpg) 
+   ![image](.imegas/Twenty_button_console.jpg) 
        
    </details>
     
