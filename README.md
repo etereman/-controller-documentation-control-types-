@@ -208,7 +208,7 @@ Possible types of radio transmitters:
     
    <details> <summary>Description</summary> 
   
-   ![image](images/DMX.jpg) 
+   ![image](imegas/DMX.jpg) 
        
    </details>
     
