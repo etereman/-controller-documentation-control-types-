@@ -222,6 +222,7 @@ Possible types of radio transmitters:
         - If page #1 is selected: buttons 1-18 → effects 1-18. 
         - If page # 2 is selected: buttons 1-18 → effects 19-36.
 
+            
         The radio channel cannot be changed by hardware restrictions.
     
         </details>
