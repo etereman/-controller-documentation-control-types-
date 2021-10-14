@@ -326,8 +326,8 @@ To switch effects via a DMX device, a Teensy 3.2 controller is used with two mal
 
 The controller comes in 2 firmware versions:
     
-- control with 1 DMX channel (old);
-- control using 1-16 DMX channels (has limitations).
+   - control with 1 DMX channel (old);
+   - control using 1-16 DMX channels (has limitations).
 
 Restrictions of the second option depending on the number of channels:
     
@@ -354,5 +354,63 @@ LED indication:
     - yellow - errors in channel.txt file.
 
 </details>    
-    
+
+## MICROPHONE MODE
+
 <details> <summary>Specification</summary> 
+
+![image](images/DMX.jpg)
+
+Only available with ESP8266.
+
+Restrictions:
+    
+   - 1 button to switch effects instead of 2 by default;
+   - Reduces the number of LED outputs by 1.
+
+2 microphone modes:
+    
+   - Response of standalone effects to sound
+   - Sound animation.
+
+### Response of standalone effects to sound
+
+Regular standalone effects can react to sound in terms of brightness and speed.
+
+Add next rows to the config file:
+
+    device.1=mic(17);
+    update.set=led.brightness, device.1.1, 5,100;
+    update.set=play.speed, device.1.1, 150,512;
+    button.count=1;
+    button.1=digital(10,pull_up)[Switch 1,1000 Reset];
+
+Only one effect switch button will be available for use. The only thing you can change is the action for this button. The rest of the parameter values are optimal for current hardware.
+But you can change the last two values for update.set parameter for brightness and speed 5 – minimum brightness (range: 0-99), 100 – maximum brightness (range: 1-100), 150 – minimum speed (range:0-511), 512 – maximum speed (range:1-512).
+
+### Sound animation
+
+The controller with the microphone must have next lines of code in the config file:
+    
+    button.count=1;
+    button.1=digital(10,pull_up)[Switch 1,1000 Reset];
+    device.1=mic(17,200,60,49000,2100,5000);
+
+Only one effect switch button will be available for use. The only thing you can change is the action for this button. The rest of the parameter values are optimal for current hardware.
+
+
+Also, you need to create a file A1.txt in the root folder (in the same place where the config.txt file is stored):
+
+    version=1;
+    device=device.1.1;
+    frametime=100;
+    
+Also, you need to create a folder named anim in the root folder. Create a folder named A1 in the anim folder and save the images that you want to see as your effects in it. Images must be in .bmp format with a resolution equal to that of the LED patch resolution. BMP images must have numbered names starting from number 1 (1.bmp, 2.bmp ...). Images must have 24-bit color depth (check the parameter in a graphics editor).
+
+![image](images/A1.jpg)
+
+</details>
+
+
+
+
