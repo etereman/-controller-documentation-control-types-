@@ -228,11 +228,7 @@ Possible types of radio transmitters:
     
    - DMX device
    
-        <details> <summary>Description</summary> 
-   
-        ![image](images/DMX.jpg) 
-       
-        </details> 
+        [**Manual**](https://github.com/etereman/-controller-documentation-control-types-/blob/main/README.md#standart-control).
     
       
     
