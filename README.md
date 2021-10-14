@@ -571,7 +571,7 @@ Sometimes, you may see problems in the performance of LED products. Here are som
 
  
  
-        ### Problem # 1: Some parts of the product aren't working.
+### Problem # 1: Some parts of the product aren't working.
 
 <details> <summary>Description</summary>    
 
@@ -592,7 +592,7 @@ Products with separately located diodes connected by flexible wires (products fo
 
 </details>
 
-        ### Problem # 2: Product LEDs are blinking red.
+### Problem # 2: Product LEDs are blinking red.
 
 <details> <summary>Description</summary>  
 
@@ -612,7 +612,7 @@ If the computer does not recognize the memory card, you need to replace it. You 
 
 </details>
 
-        ### Problem # 3: LEDs are blinking blue-red.
+### Problem # 3: LEDs are blinking blue-red.
 
 <details> <summary>Description</summary> 
 
@@ -620,7 +620,7 @@ Cause: Failed activation of the controller. This is a fairly rare problem that u
 
 </details>
 
-        ### Problem # 4: product flashes yellow-red.
+### Problem # 4: product flashes yellow-red.
 
 <details> <summary>Description</summary>  
 
@@ -630,7 +630,7 @@ Solution: Check if the config.txt file exists on the memory card. If the file ex
 
 </details>
 
-        ### Problem # 5: visual effects slow down, stop at some point, or don't change.
+### Problem # 5: visual effects slow down, stop at some point, or don't change.
 
 <details> <summary>Description</summary>   
 
