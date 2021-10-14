@@ -492,7 +492,7 @@ Warning! Do not turn off the controller while transferring files to avoid errors
 
 
 
-COMMON SERVICE SETTINGS [+]
+## COMMON SERVICE SETTINGS [+]
 
 <details> <summary>Specification</summary>     
 
