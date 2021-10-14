@@ -229,9 +229,55 @@ Possible types of radio transmitters:
    - DMX device
    
         [**Manual**](https://github.com/etereman/-controller-documentation-control-types-/blob/main/README.md#standart-control).
-    
-      
-    
 
+## WIFI REAL-TIME CONTROL    
+       
+<details> <summary>Specification</summary>      
+    
+Available on ESP8266 and ESP32.
+
+Network data type: Art-Net packets.
+
+Limitations:
+    
+  - ESP8266 - 680 LEDs or 4 universes
+  - ESP32 - 1700 LEDs or 10 universes (it is recommended to use fewer LEDs for more stability)
+   
+Universe is an Artnet networking package containing data for 170 LEDs.
+Supported WiFi protocols: IEEE 802.11b/g/n.
+
+### WiFi settings for config.txt file
+    
+<details> <summary>Description</summary>    
+
+`wifi.mode=sta;`
+    
+'sta' or 'ap'. This means that the controller must be connected to the user’s Wi-Fi hotspot, otherwise, the controller will create its own hotspot with the parameters shown below. We recommend using the `"sta"` mode.
+Warning! Signal quality and network stability largely depend on the hardware of your access point! A regular cheap home router may not be enough for your tasks.
+
+`wifi.ssid=Point1234;`
+Access point name.
+
+`wifi.password=pass4321;`
+Access point password.
+
+`wifi.ip=192.168.1.99;`
+IP address of controller in network.
+
+`wifi.netmask=255.255.255.0;`
+Standard network mask, no need to change in most situations.
+
+`wifi.gateway=192.168.1.1;`
+Same as IP, but the last number may be any from 0 to 255. The gateway is only needed to work over the Internet. There is no internet functionality at this moment.
+
+`play.defaultPlayMode=4;`
+or
+`play.defaultPlayMode=Art-Net;`
+Sets this mode as default mode.
+
+
+</details>
+    
+</details>
 
 </details>      
