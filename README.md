@@ -201,13 +201,24 @@ A short press of the button sends a signal to start playback of the sequence to 
 </details>
 
 Possible types of radio transmitters:
+   
+   - Twenty button console
+    
+   <details> <summary>Description</summary> 
+   
+   ![Windows instructions](image/DMX.png)  
+       
+   </details>
+   - DMX device
+ 
     
     
-    
-</details>    
+      
     
 <details> <summary>Description</summary>       
 
 
     
-</details>    
+</details>
+
+</details>      
