@@ -228,7 +228,7 @@ Possible types of radio transmitters:
     
    - DMX device
    
-        [**Manual**](https://github.com/etereman/-controller-documentation-control-types-/blob/main/README.md#standart-control).
+        [**Manual**](https://github.com/etereman/-controller-documentation-control-types-/blob/main/README.md#dmx-controler).
 
 </details>  
     
@@ -325,10 +325,12 @@ Sets this mode as default mode.
 To switch effects via a DMX device, a Teensy 3.2 controller is used with two male XLR connectors with 3 and 5 pins respectively, a microSD card, LED indication, a 433 MHz radio module, and an external antenna.
 
 The controller comes in 2 firmware versions:
+    
 - control with 1 DMX channel (old);
 - control using 1-16 DMX channels (has limitations).
 
 Restrictions of the second option depending on the number of channels:
+    
     - 1 channel - supports up to 255 effects
     - 2 channels - supports up to 127 effects
     - 3-4 channels - supports up to 63 effects
@@ -346,9 +348,11 @@ Example:
 If for some reason the first radio channel is occupied by another device, you can change the channel of this transmitter by creating a file “config.txt”. In it, you must specify the channel number from 1 to 127. In this case, the channel of the receiving device must also be changed. See the appropriate section for ESP8266 or ESP32 controllers.
 
 LED indication:
+    
     - red - microSD card not found;
     - dull red at the start - microSD card found but there is no "channel.txt" file;
     - yellow - errors in channel.txt file.
 
+</details>    
     
-    
+<details> <summary>Specification</summary> 
