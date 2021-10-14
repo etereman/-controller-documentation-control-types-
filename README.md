@@ -217,9 +217,10 @@ Possible types of radio transmitters:
         Version with 20 effects: each button triggers one effect from 1 to 20.
 
         Version with 36 effects: 
-        18 buttons for switching effects, 2 buttons for setting page 1 or 2. 
-        If page #1 is selected: buttons 1-18 → effects 1-18. 
-        If page # 2 is selected: buttons 1-18 → effects 19-36.
+            
+        - 18 buttons for switching effects, 2 buttons for setting page 1 or 2. 
+        - If page #1 is selected: buttons 1-18 → effects 1-18. 
+        - If page # 2 is selected: buttons 1-18 → effects 19-36.
 
         The radio channel cannot be changed by hardware restrictions.
     
