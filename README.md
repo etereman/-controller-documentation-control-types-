@@ -280,7 +280,38 @@ or
 `play.defaultPlayMode=Art-Net;`
 Sets this mode as default mode.
 
-
 </details>
+
     
-     
+    
+    
+## LAN realtime control        
+    
+<details> <summary>Specification</summary> 
+   
+Only is supported by ESP32.
+
+Limitations: 4760 LEDs or 28 universes for stable operation, but more than 40 universes are possible (6800 LEDs).
+    
+Warning! More LEDs -> less stability and lower frame rates -> more freezes or controller reboots.
+
+
+### LAN Settings for config.txt file
+
+`wifi.mode=eth;`
+Enable LAN hardware.
+
+`wifi.ip=192.168.1.99;`
+IP address of controller within the network.
+
+`wifi.netmask=255.255.255.0;`
+Standard network mask, no need to change it in most situations.
+
+`wifi.gateway=192.168.1.1;`
+Same as IP, but the last number may be any from 0 to 255. The gateway is only needed to work over the Internet. There is no internet functionality at this moment.
+
+`play.defaultPlayMode=4;` or `play.defaultPlayMode=Art-Net;`
+    
+Sets this mode as default mode.
+    
+</details>    
