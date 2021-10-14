@@ -251,6 +251,8 @@ Limitations:
 Universe is an Artnet networking package containing data for 170 LEDs.
 Supported WiFi protocols: IEEE 802.11b/g/n.
 
+   
+    
 ### WiFi settings for config.txt file
     
 <details> <summary>Description</summary>    
@@ -282,10 +284,10 @@ Sets this mode as default mode.
 
 </details>
 
+</details>      
     
     
-    
-## LAN realtime control        
+## LAN REAL-TIME CONTROL        
     
 <details> <summary>Specification</summary> 
    
@@ -315,3 +317,38 @@ Same as IP, but the last number may be any from 0 to 255. The gateway is only ne
 Sets this mode as default mode.
     
 </details>    
+
+## DMX CONTROLER
+
+<details> <summary>Specification</summary> 
+    
+To switch effects via a DMX device, a Teensy 3.2 controller is used with two male XLR connectors with 3 and 5 pins respectively, a microSD card, LED indication, a 433 MHz radio module, and an external antenna.
+
+The controller comes in 2 firmware versions:
+- control with 1 DMX channel (old);
+- control using 1-16 DMX channels (has limitations).
+
+Restrictions of the second option depending on the number of channels:
+    - 1 channel - supports up to 255 effects
+    - 2 channels - supports up to 127 effects
+    - 3-4 channels - supports up to 63 effects
+    - 5-8 channels - supports up to 31 effects
+    - 9-16 channels - supports up to 16 effects
+
+### DMX channel settings
+The controller memory card contains the “channel.txt” file. The DMX channel number should be specified in the range of [1-512], each channel should be specified on a new line, and the number of channels should not exceed 16 pieces.
+
+Example:
+    
+![image](images/DMX.jpg)
+
+### Radio channel settings
+If for some reason the first radio channel is occupied by another device, you can change the channel of this transmitter by creating a file “config.txt”. In it, you must specify the channel number from 1 to 127. In this case, the channel of the receiving device must also be changed. See the appropriate section for ESP8266 or ESP32 controllers.
+
+LED indication:
+    - red - microSD card not found;
+    - dull red at the start - microSD card found but there is no "channel.txt" file;
+    - yellow - errors in channel.txt file.
+
+    
+    
