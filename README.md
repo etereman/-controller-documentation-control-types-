@@ -492,4 +492,72 @@ Warning! Do not turn off the controller while transferring files to avoid errors
 
 
 
+COMMON SERVICE SETTINGS [+]
+
+<details> <summary>Specification</summary>     
+
+This settings can be added to the config files of ESP8266 and ESP32 controllers.
+
+### Effects
+
+<details> <summary>Description</summary>
+
+Maximum LED brightness. 70% by default.
+   `led.bright=70%;`
+
+Play the first effect immediately after turning on the controller. False by default.
+   `play.autostart=true;`
+
+Effect speed. 100% by default.
+   `play.speed=100%;`
+
+</details>
+
+### LEDs
+
+<details> <summary>Description</summary>
+
+LED type. WS – WS2812b; SK – SK6812; PL – PL9823; WS_CHIP – used in 3D cube installations. (For advanced users only) 
+Chooses one of supported led types ( WS / SK / PL / WS_CHIP ):
+    
+`led.type=WS;`
+    
+This command works only for ESP8266 for now. For ESP32 you need to use T0, T1 and PD parameters.
+
+Change color order. Different LED types has different color order. (For advanced users only)
+    
+`led.order=default;`	 Defines led color order (RGB / GRB / ... )
+
+If your LEDs are not supported but have the same type of data signal as LED types above, you can set up your own LEDs using their documentation. (For advanced users only)
+    
+    led.t1=0;
+    led.t0=0;
+    led.pd=0;
+
+</details>
+
+### Buttons
+
+<details> <summary>Description</summary>
+
+Default settings for the config file:
+    
+    button.count=2;
+    button.1=analog<0,500>(34,pullup,no invert)[next, 1500 reset];
+    button.2=analog<500,3500>(34,pullup,no invert)[back, 1500 reset];
+    
+You can change parameters of button action like next, back, reset, brigntness.
+1500 means that reset to blackout after a long press for about 1.5 seconds.
+    
+Example for brightness change:
+    
+`button.1=analog<0,500>(34,pullup,no invert)[Brightness 10, 500 Brightness -10];`
+    
+Brightness range: 0-255. So each press/long press changes brightness value by ~1/25.
+
+If you want to disable buttons:
+    
+   `button.disable=false;`
+
+</details>
 
