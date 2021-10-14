@@ -561,6 +561,8 @@ If you want to disable buttons:
 
 </details>
 
+</details> 
+    
 ## MAIN PROBLEMS
 
 <details> <summary>Specification</summary>  
@@ -580,16 +582,63 @@ Also, a break in the soldering does not always turn off the LEDs. It all depends
 Solution: re-solder the connection or replace the LEDs. Links to video instructions:
 Products with separately located diodes connected by flexible wires (products for belly dancing, Peacock Tails, ballet tutus, angel wings, etc.): 
 
-https://youtu.be/c3QmbBcWxTw
+    https://youtu.be/c3QmbBcWxTw
 
-Products made with LED strip: https://youtu.be/XLc9dmGdp3g
+    Products made with LED strip: https://youtu.be/XLc9dmGdp3g
 
-Repair of diodes in LED jackets: https://youtu.be/rEJG0qQuwB4
+    Repair of diodes in LED jackets: https://youtu.be/rEJG0qQuwB4
 
 </details>
 
+### Problem # 2: Product LEDs are blinking red.
 
+<summary>Description</summary>  
 
-
+Cause: There is a problem with the microSD card.
     
+Solution: Make sure the microSD card is fully inserted.
+    
+It is also necessary to check the memory card for errors. Use a microSD to USB adapter or a respective slot in a laptop to connect the memory card to your computer. If the computer recognizes the memory card but cannot open it, you need to erase all data on the memory card. To do this, you need to format it. Video instructions on formatting memory cards can be viewed here: 
+
+https://www.youtube.com/watch?v=M70LqYyvp_A
+
+Formatting settings: FAT32 file system.
+
+Copy all files for the controller from our Amazon cloud drive. The link to the cloud drive is usually provided together with instructions for creating new effects in Madrix. Contact ETEREshop managers if you do not have a link to the cloud drive. You can also use your own backup copy on your computer if you have one.
+
+If the computer does not recognize the memory card, you need to replace it. You can try taking a memory card from a spare controller if available. If the problem is not resolved, chances are high that the controller's microSD slot has been damaged. In this case, repair or use of a spare controller is required.
+
+</details>
+
+### Problem # 3: LEDs are blinking blue-red.
+
+<summary>Description</summary>  
+    
+Cause: Failed activation of the controller. This is a fairly rare problem that usually occurs if the wrong or broken activation file has been copied to the microSD card of the controller. Solution: send us the protect.txt file from the microSD card and we will give you the correct key.
+
+</details>
+
+### Problem # 4: product flashes yellow-red.
+
+<summary>Description</summary>  
+    
+Cause: The controller cannot recognize the config.txt file on the microSD card.
+    
+Solution: Check if the config.txt file exists on the memory card. If the file exists, check the memory card for errors. To do this, refer to the "product LEDs are flashing red" solution.    
+
+</details>
+
+Problem # 5: visual effects slow down, stop at some point, or don't change.
+
+<summary>Description</summary>  
+
+Cause 1: problem with the memory card.
+
+Solution 1: If the memory card is recognized by the computer, copy all files to your computer and format the card. Formatting settings: FAT32 file system. Copy the files back and insert the card into the controller. Check the results. If the problem persists or returns soon, try using a different memory card.
+
+Cause 2: Low battery current. Most LED products require at least 10 amperes of current, it is recommended to use batteries with 20 amps or more, especially if the product has a big number of LEDs. If you have purchased batteries with less than 10 amps or where the amperage is not written at all, there is a high probability that the performance problem lies in them, especially if this problem appeared the first or second time you turned on the product.
+
+Solution 2: Try replacing the batteries with high current ones. There’s no need to buy a big number of batteries to test this solution if the product requires 4+ batteries. You can turn on the product with only 2 batteries.
+Batteries with implicit amperes should be avoided, especially the Nuon and UltraLast brands that are quite common in stores in the United States (Batteries and bulbs, Walmart, etc.).
+
 </details>    
