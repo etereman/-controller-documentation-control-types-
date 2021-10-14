@@ -561,3 +561,35 @@ If you want to disable buttons:
 
 </details>
 
+## MAIN PROBLEMS
+
+<details> <summary>Specification</summary>  
+
+Sometimes, you may see problems in the performance of LED products. Here are some explanations for the most popular problems.
+ 
+### Problem # 1: Some parts of the product aren't working.
+
+<summary>Description</summary>    
+    
+This problem can occur in two cases:
+   - broken LED;
+   - a crack or a break in the soldering (it manifests itself in the same way as a broken LED but the problem and its solution are slightly different).
+    
+Also, a break in the soldering does not always turn off the LEDs. It all depends on which wire was disconnected from the LED. Sometimes a break in soldering is manifested as a chaotic blinking of LEDs, that is, some LEDs are not controlled by the controller. Less commonly, this problem manifests itself as freezing of some part of the image, while the rest of the product works properly.
+    
+Solution: re-solder the connection or replace the LEDs. Links to video instructions:
+Products with separately located diodes connected by flexible wires (products for belly dancing, Peacock Tails, ballet tutus, angel wings, etc.): 
+
+https://youtu.be/c3QmbBcWxTw
+
+Products made with LED strip: https://youtu.be/XLc9dmGdp3g
+
+Repair of diodes in LED jackets: https://youtu.be/rEJG0qQuwB4
+
+</details>
+
+
+
+
+    
+</details>    
