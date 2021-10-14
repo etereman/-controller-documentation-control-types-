@@ -208,7 +208,7 @@ Possible types of radio transmitters:
     
    <details> <summary>Description</summary> 
   
-   ![image](imegas/DMX.jpg) 
+   ![image](imegas/Twenty button console.jpg) 
        
    </details>
     
@@ -216,7 +216,7 @@ Possible types of radio transmitters:
    
    <details> <summary>Description</summary> 
    
-   ![Image alt](https://github.com/etereman/-controller-documentation-control-types-/raw/master/image/DMX.jpg)
+ )
        
    </details> 
     
