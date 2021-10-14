@@ -230,6 +230,8 @@ Possible types of radio transmitters:
    
         [**Manual**](https://github.com/etereman/-controller-documentation-control-types-/blob/main/README.md#standart-control).
 
+</details>       
+       
 ## WIFI REAL-TIME CONTROL    
        
 <details> <summary>Specification</summary>      
@@ -278,6 +280,4 @@ Sets this mode as default mode.
 
 </details>
     
-</details>
-
 </details>      
