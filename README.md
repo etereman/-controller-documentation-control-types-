@@ -565,11 +565,11 @@ If you want to disable buttons:
     
 ## MAIN PROBLEMS
 
-
+<details> <summary>Specification</summary>
 
 Sometimes, you may see problems in the performance of LED products. Here are some explanations for the most popular problems.
 
-<details> <summary>Specification</summary>  
+ 
  
 ### Problem # 1: Some parts of the product aren't working.
 
