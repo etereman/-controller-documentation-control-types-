@@ -568,10 +568,12 @@ If you want to disable buttons:
 
 
 Sometimes, you may see problems in the performance of LED products. Here are some explanations for the most popular problems.
+
+<details> <summary>Specification</summary>  
  
 ### Problem # 1: Some parts of the product aren't working.
 
-<summary>Description</summary>    
+<details> <summary>Description</summary>    
     
 This problem can occur in two cases:
    - broken LED;
@@ -591,8 +593,8 @@ Products with separately located diodes connected by flexible wires (products fo
 </details>
 
 ### Problem # 2: Product LEDs are blinking red.
-
-<summary>Description</summary>  
+    
+<details> <summary>Description</summary>  
 
 Cause: There is a problem with the microSD card.
     
@@ -612,7 +614,7 @@ If the computer does not recognize the memory card, you need to replace it. You 
 
 ### Problem # 3: LEDs are blinking blue-red.
 
-<summary>Description</summary>  
+<details> <summary>Description</summary> 
     
 Cause: Failed activation of the controller. This is a fairly rare problem that usually occurs if the wrong or broken activation file has been copied to the microSD card of the controller. Solution: send us the protect.txt file from the microSD card and we will give you the correct key.
 
@@ -620,7 +622,7 @@ Cause: Failed activation of the controller. This is a fairly rare problem that u
 
 ### Problem # 4: product flashes yellow-red.
 
-<summary>Description</summary>  
+<details> <summary>Description</summary>  
     
 Cause: The controller cannot recognize the config.txt file on the microSD card.
     
@@ -630,7 +632,7 @@ Solution: Check if the config.txt file exists on the memory card. If the file ex
 
 Problem # 5: visual effects slow down, stop at some point, or don't change.
 
-<summary>Description</summary>  
+<details> <summary>Description</summary>   
 
 Cause 1: problem with the memory card.
 
