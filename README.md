@@ -455,11 +455,41 @@ These are the same settings that are used for WiFi realtime settings except the 
 
 ### How to use
 
-        - 1. Turn on your controller with settings above.
-        - 2. Take your mobile phone or laptop and open WiFi network list.
-        - 3. Find the network with name that you wrote in the config file and connect to it using your password.
-        - 4. Open your browser and set controller IP to the address row.
-        - 5. Now you must see the control page.
+<details> <summary>Description</summary>
+
+    1. Turn on your controller with the settings above.
+    2. Take your mobile phone or laptop and open the WiFi network list.
+    3. Find the network with the name that you wrote in the config file and connect to it using your password.
+    4. Open your browser and type the controller’s IP address to the address bar.
+    5. If done correctly, you will see the control page.
 
 
+![image](images/B1.jpg)
+
+Open the menu and select the manual control option.
     
+![image](images/B3.jpg)
+
+    1. LED brightness control.
+    2. Set the current effect by number.
+    3. Previous (-), next (+), and blackout effect.
+    4. Effect speed. You can make it faster or slower.
+    5. You can set config file string to switch on/off any supported functionality. Example: rh.enable=0; - radio disable.
+    6. Select effect by name.
+    7. Service menu. You can try to configure LEDs different from WS2812b but only if they are using the same control logic. For advanced users.
+    8. Change the colors of LEDs of all connected products. Use RGB sliders to find the color you want.
+
+File manager may be also useful to upload new effects over a Wi-Fi connection from your device.
+Warning! Do not turn off the controller while transferring files to avoid errors in the controller memory card.
+
+
+![image](images/B2.jpg)
+
+</details>
+
+</details>    
+
+
+
+
+
