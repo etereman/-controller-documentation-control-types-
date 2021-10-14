@@ -201,7 +201,9 @@ A short press of the button sends a signal to start playback of the sequence to 
 </details>
 
 Possible types of radio transmitters:
-   
+    
+<details> <summary>Description</summary>     
+    
    - Twenty button console
     
    <details> <summary>Description</summary> 
@@ -220,10 +222,6 @@ Possible types of radio transmitters:
     
       
     
-<details> <summary>Description</summary>       
 
-
-    
-</details>
 
 </details>      
