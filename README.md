@@ -257,7 +257,7 @@ Supported WiFi protocols: IEEE 802.11b/g/n.
 
 `wifi.mode=sta;`
     
-'sta' or 'ap'. This means that the controller must be connected to the user’s Wi-Fi hotspot, otherwise, the controller will create its own hotspot with the parameters shown below. We recommend using the `"sta"` mode.
+`'sta'` or `'ap'`. This means that the controller must be connected to the user’s Wi-Fi hotspot, otherwise, the controller will create its own hotspot with the parameters shown below. We recommend using the `"sta"` mode.
 Warning! Signal quality and network stability largely depend on the hardware of your access point! A regular cheap home router may not be enough for your tasks.
 
 `wifi.ssid=Point1234;`
