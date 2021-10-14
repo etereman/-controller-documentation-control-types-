@@ -642,3 +642,5 @@ Solution 2: Try replacing the batteries with high current ones. There’s no nee
 Batteries with implicit amperes should be avoided, especially the Nuon and UltraLast brands that are quite common in stores in the United States (Batteries and bulbs, Walmart, etc.).
 
 </details>    
+
+</details>
