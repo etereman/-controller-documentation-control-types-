@@ -338,13 +338,21 @@ Restrictions of the second option depending on the number of channels:
     - 9-16 channels - supports up to 16 effects
 
 ### DMX channel settings
-The controller memory card contains the “channel.txt” file. The DMX channel number should be specified in the range of [1-512], each channel should be specified on a new line, and the number of channels should not exceed 16 pieces.
+
+<details> <summary>Description</summary> 
+    
+The controller memory card contains the `channel.txt` file. The DMX channel number should be specified in the range of [1-512], each channel should be specified on a new line, and the number of channels should not exceed 16 pieces.
 
 Example:
     
 ![image](images/DMX.jpg)
 
+</details>  
+
 ### Radio channel settings
+    
+<details> <summary>Description</summary>
+    
 If for some reason the first radio channel is occupied by another device, you can change the channel of this transmitter by creating a file “config.txt”. In it, you must specify the channel number from 1 to 127. In this case, the channel of the receiving device must also be changed. See the appropriate section for ESP8266 or ESP32 controllers.
 
 LED indication:
@@ -355,11 +363,13 @@ LED indication:
 
 </details>    
 
+</details>      
+    
 ## MICROPHONE MODE
 
 <details> <summary>Specification</summary> 
 
-![image](images/DMX.jpg)
+![image](images/micro.jpg)
 
 Only available with ESP8266.
 
@@ -375,6 +385,8 @@ Restrictions:
 
 ### Response of standalone effects to sound
 
+<details> <summary>Description</summary> 
+
 Regular standalone effects can react to sound in terms of brightness and speed.
 
 Add next rows to the config file:
@@ -388,7 +400,11 @@ Add next rows to the config file:
 Only one effect switch button will be available for use. The only thing you can change is the action for this button. The rest of the parameter values are optimal for current hardware.
 But you can change the last two values for update.set parameter for brightness and speed 5 – minimum brightness (range: 0-99), 100 – maximum brightness (range: 1-100), 150 – minimum speed (range:0-511), 512 – maximum speed (range:1-512).
 
+</details> 
+
 ### Sound animation
+
+<details> <summary>Description</summary> 
 
 The controller with the microphone must have next lines of code in the config file:
     
@@ -411,6 +427,39 @@ Also, you need to create a folder named anim in the root folder. Create a folder
 
 </details>
 
+</details> 
 
 
+## BROWSER CONTROL
 
+<details> <summary>Specification</summary> 
+    
+vailable only for ESP32.
+ 
+Used only for standalone and radio [output or group mode] control.
+ 
+To activate this functionality you need to add next rows to the config.txt file:
+ 
+    wifi.ssid=Custom_access_point_name;
+    wifi.password=cusom_password;
+    wifi.mode=ap;
+    wifi.ip=192.168.1.100;
+    wifi.netmask=255.255.255.0;
+    wifi.gateway=192.168.1.1;
+ 
+`wifi.web=1;` or `wifi.web=true;`
+    
+These are the same settings that are used for WiFi realtime settings except the last row. More details are here.
+
+> **Note:** Controller also can be set in 'sta' mode. In this case you need to set ssid and password of the existing network. Also you need to know its IP address. First 3 values of controller IP must repeat values of network IP. Last value must be not occupied by any another device and not equal or more than 255. 
+
+### How to use
+
+        - 1. Turn on your controller with settings above.
+        - 2. Take your mobile phone or laptop and open WiFi network list.
+        - 3. Find the network with name that you wrote in the config file and connect to it using your password.
+        - 4. Open your browser and set controller IP to the address row.
+        - 5. Now you must see the control page.
+
+
+    
