@@ -3,7 +3,7 @@ This page describes etereshop controller software.
 During time this software changed multiple times, this documentation version describes 8th software version.  
 Due to backwards compatibility this instructions can be applied to previous software versions.
 
-## STANDART CONTROL
+## STANDARD CONTROL
 
 <details> <summary>Specification</summary>
 Available for controllers:
