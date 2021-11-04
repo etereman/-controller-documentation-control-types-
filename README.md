@@ -106,7 +106,8 @@ Service mode for testing and detecting problems with LEDs.
 </details>
 
 
-.
+____________________________________________________________________________________________________       
+
 
 ## RADIO CONTROL
     
@@ -286,7 +287,8 @@ Sets this mode as default mode.
 
 </details>      
     
-###    
+____________________________________________________________________________________________________       
+  
 ## LAN REAL-TIME CONTROL        
     
 <details> <summary>Specification</summary> 
@@ -318,7 +320,8 @@ Sets this mode as default mode.
     
 </details>    
 
-###
+____________________________________________________________________________________________________       
+
 ## DMX CONTROLER
 
 <details> <summary>Specification</summary> 
@@ -365,8 +368,8 @@ LED indication:
 </details>    
 
 </details>      
+____________________________________________________________________________________________________       
 
-###
 ## MICROPHONE MODE
 
 <details> <summary>Specification</summary> 
@@ -431,6 +434,7 @@ Also, you need to create a folder named anim in the root folder. Create a folder
 
 </details> 
 
+____________________________________________________________________________________________________       
 
 ## BROWSER CONTROL
 
@@ -493,7 +497,8 @@ Warning! Do not turn off the controller while transferring files to avoid errors
 
 
 
-###
+____________________________________________________________________________________________________       
+
 ## COMMON SERVICE SETTINGS [+]
 
 <details> <summary>Specification</summary>     
@@ -565,7 +570,8 @@ If you want to disable buttons:
 
 </details> 
 
-###    
+____________________________________________________________________________________________________       
+   
 ## MAIN PROBLEMS
 
 <details> <summary>Specification</summary>
