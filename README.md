@@ -106,7 +106,7 @@ Service mode for testing and detecting problems with LEDs.
 </details>
 
 
-###
+.
 
 ## RADIO CONTROL
     
@@ -234,7 +234,7 @@ Possible types of radio transmitters:
     
 </details>
     
-###       
+____________________________________________________________________________________________________       
 ## WIFI REAL-TIME CONTROL    
        
 <details> <summary>Specification</summary>      
