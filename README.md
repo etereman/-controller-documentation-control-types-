@@ -106,7 +106,7 @@ Service mode for testing and detecting problems with LEDs.
 </details>
 
 
-
+###
 
 ## RADIO CONTROL
     
@@ -234,7 +234,7 @@ Possible types of radio transmitters:
     
 </details>
     
-       
+###       
 ## WIFI REAL-TIME CONTROL    
        
 <details> <summary>Specification</summary>      
@@ -286,7 +286,7 @@ Sets this mode as default mode.
 
 </details>      
     
-    
+###    
 ## LAN REAL-TIME CONTROL        
     
 <details> <summary>Specification</summary> 
@@ -318,6 +318,7 @@ Sets this mode as default mode.
     
 </details>    
 
+###
 ## DMX CONTROLER
 
 <details> <summary>Specification</summary> 
@@ -364,7 +365,8 @@ LED indication:
 </details>    
 
 </details>      
-    
+
+###
 ## MICROPHONE MODE
 
 <details> <summary>Specification</summary> 
@@ -491,7 +493,7 @@ Warning! Do not turn off the controller while transferring files to avoid errors
 
 
 
-
+###
 ## COMMON SERVICE SETTINGS [+]
 
 <details> <summary>Specification</summary>     
@@ -562,7 +564,8 @@ If you want to disable buttons:
 </details>
 
 </details> 
-    
+
+###    
 ## MAIN PROBLEMS
 
 <details> <summary>Specification</summary>
